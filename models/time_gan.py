@@ -2,7 +2,7 @@ import numpy as np
 from tensorflow import function, GradientTape, sqrt, abs, reduce_mean, ones_like, zeros_like, convert_to_tensor,float32, nn
 from tensorflow import data as tfdata
 
-from tqdm import tqdm, trange
+from tqdm import trange
 
 from models.time_gan_definitions import TimeGANDefinition
 
